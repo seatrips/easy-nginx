@@ -1,12 +1,14 @@
 # easy-nginx
+
+## first check easy-ssl
+
+## 1- Installation
 ```
 sudo apt purge apache2
 sudo apt install nginx
 sudo nano /etc/nginx/sites-available/default
 ```
-
-edit
-
+## 2- Edit
 ```
 server {
     listen 80 default;
@@ -35,7 +37,7 @@ server {
     }
 }
 ```
-
+## 3- Restart nginx
 ```
 sudo service nginx restart
 ```
